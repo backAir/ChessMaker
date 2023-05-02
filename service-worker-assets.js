@@ -33,11 +33,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-ZmN8QmyrZQUZwtq21M67WIMyjOAQCdxpvuVMNpCbWpk=",
+      "hash": "sha256-Jwr9oJY9uGYppSjpy1NpNR+i8ao7WkqhLt\/BfVJDDz0=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-C5DvBqdsMFPbFf7jl1nA4c62ib2g3+qOmuw3dWeHC5I=",
+      "hash": "sha256-mgBNd6M+VfLQSyfCnsaT6LpxrRQk6vJcIb3W4knTlhg=",
       "url": "_framework\/Chess Maker Web.dll"
     },
     {
@@ -297,5 +297,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "vN3gJ4w1"
+  "version": "+F4oWV5E"
 };
