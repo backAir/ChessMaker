@@ -1,5 +1,5 @@
 {
-  "cacheBootResources": true,
+  "cacheBootResources": false,
   "config": [ ],
   "debugBuild": false,
   "entryAssembly": "Chess Maker Web",
@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "Chess Maker Web.dll": "sha256-dDVNJuoZxt6XNNxNQnPUGociERv74lYShqfbgr64u4Q=",
+      "Chess Maker Web.dll": "sha256-Y9jrYRYKQws2DDZZAtQThfLKY6hKBJCnMdikv8n10Bg=",
       "Microsoft.AspNetCore.Components.dll": "sha256-L6aQT6l4XuK1API9pBg6dg5zCyqCPEjCjKZyUZiYzB0=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-MhvYGvcUDRJ6M+4HnuiX82yI39u8JmT0mRoY6yqii1U=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-9SmCqHySDbqUN2Pebix65YScozirCzXfKyiHrKH60SI=",

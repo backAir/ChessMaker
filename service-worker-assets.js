@@ -33,11 +33,11 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-kYQ+8pivgw9CCiPv3Cx7tI13qZmlBbmOeVaSoRLKXDk=",
+      "hash": "sha256-QZzE9GVM82a3XAe2YejBkq9jXNzvA6aOYkMz41zGd6I=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-dDVNJuoZxt6XNNxNQnPUGociERv74lYShqfbgr64u4Q=",
+      "hash": "sha256-Y9jrYRYKQws2DDZZAtQThfLKY6hKBJCnMdikv8n10Bg=",
       "url": "_framework\/Chess Maker Web.dll"
     },
     {
@@ -341,8 +341,12 @@
       "url": "images\/Zw.png"
     },
     {
-      "hash": "sha256-YwBy18ZCPc5rliG06Q0yOa\/90+VNTua9aO0XyaTBw\/c=",
+      "hash": "sha256-3tG7d7rCn25N3Hbs4UNehdyTwf7X60fY9O4Z7NUpilg=",
       "url": "index.html"
+    },
+    {
+      "hash": "sha256-Joq79GFPQ7Yny2+\/+uZzg30cau6B9k7vYzPPvstGaYo=",
+      "url": "js\/PlaySound.js"
     },
     {
       "hash": "sha256-Pd3o7dAn4kUGMy17GnzilJXTf\/47Gxen\/qU5pYkpulY=",
@@ -353,5 +357,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "zI53uiKH"
+  "version": "et9ozBiw"
 };

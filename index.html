@@ -7,7 +7,11 @@
     <title>Chess Maker Web</title>
     <!-- GITHUB THINGY 
         Also hi ! What are you doing here ? -->
-    <base href="/ChessMaker/" />
+        #if DEBUG
+            <base href="/" />
+        #else
+            <base href="/ChessMaker/" />
+        #endif
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
     <link href="Chess Maker Web.styles.css" rel="stylesheet" />
