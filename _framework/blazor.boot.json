@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "Chess Maker Web.dll": "sha256-Y9jrYRYKQws2DDZZAtQThfLKY6hKBJCnMdikv8n10Bg=",
+      "Chess Maker Web.dll": "sha256-2mUUlZ6CaRvgvS+xWecvla7FW6kkUWI7jB2eXu1UoUo=",
       "Microsoft.AspNetCore.Components.dll": "sha256-L6aQT6l4XuK1API9pBg6dg5zCyqCPEjCjKZyUZiYzB0=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-MhvYGvcUDRJ6M+4HnuiX82yI39u8JmT0mRoY6yqii1U=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-9SmCqHySDbqUN2Pebix65YScozirCzXfKyiHrKH60SI=",
