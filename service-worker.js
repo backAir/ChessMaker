@@ -11,6 +11,12 @@ const cacheName = `${cacheNamePrefix}${self.assetsManifest.version}`;
 const offlineAssetsInclude = [ /\.dll$/, /\.pdb$/, /\.wasm/, /\.html/, /\.js$/, /\.json$/, /\.css$/, /\.woff$/, /\.png$/, /\.jpe?g$/, /\.gif$/, /\.ico$/, /\.blat$/, /\.dat$/ ];
 const offlineAssetsExclude = [ /^service-worker\.js$/ ];
 
+
+//update thingy
+self.addEventListener('message', event => { 
+    if (event.data?.type === 'SKIP_WAITING') self.skipWaiting();
+  });
+
 async function onInstall(event) {
     console.info('Service worker: Install');
 
@@ -46,4 +52,4 @@ async function onFetch(event) {
 
     return cachedResponse || fetch(event.request);
 }
-/* Manifest version: W15KHHs3 */
+/* Manifest version: 7BJWNryI */
