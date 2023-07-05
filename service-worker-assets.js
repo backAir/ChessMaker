@@ -241,11 +241,11 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-9B1ssmP1BzkL9hEj68bC7xAbY6OIKH7eSh+6H6an8io=",
+      "hash": "sha256-I1HVbTVMu2Y\/Z9o4yFZV7wdWSBMRRFj7UNGk9T3hMBA=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-L1Qchzrc6EYBhOxdoF1v9FuEJE5ZYPhy88m8h1PEzW4=",
+      "hash": "sha256-JbRSWH3oDgexG54qRaQI7pt\/ZV175hfI4VU3VB2ouTM=",
       "url": "_framework\/Chess Maker Web.dll"
     },
     {
@@ -577,5 +577,5 @@
       "url": "_content\/Toolbelt.Blazor.PWA.Updater\/Toolbelt.Blazor.PWA.Updater.bundle.scp.css"
     }
   ],
-  "version": "YpENP+16"
+  "version": "XWkHdkYF"
 };
