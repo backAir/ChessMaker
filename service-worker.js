@@ -2,20 +2,14 @@
 // offline support. See https://aka.ms/blazor-offline-considerations
 
 self.importScripts('./service-worker-assets.js');
-self.addEventListener('install', event => event.waitUntil(onInstall(event)));
+// self.addEventListener('install', event => event.waitUntil(onInstall(event)));
 self.addEventListener('activate', event => event.waitUntil(onActivate(event)));
 self.addEventListener('fetch', event => event.respondWith(onFetch(event)));
 
-const cacheNamePrefix = 'offline-cache-';
-const cacheName = `${cacheNamePrefix}${self.assetsManifest.version}`;
-const offlineAssetsInclude = [ /\.dll$/, /\.pdb$/, /\.wasm/, /\.html/, /\.js$/, /\.json$/, /\.css$/, /\.woff$/, /\.png$/, /\.jpe?g$/, /\.gif$/, /\.ico$/, /\.blat$/, /\.dat$/ ];
-const offlineAssetsExclude = [ /^service-worker\.js$/ ];
-
-
-//update thingy
-self.addEventListener('message', event => { 
-    if (event.data?.type === 'SKIP_WAITING') self.skipWaiting();
-  });
+// const cacheNamePrefix = 'offline-cache-';
+// const cacheName = `${cacheNamePrefix}${self.assetsManifest.version}`;
+// const offlineAssetsInclude = [ /\.dll$/, /\.pdb$/, /\.wasm/, /\.html/, /\.js$/, /\.json$/, /\.css$/, /\.woff$/, /\.png$/, /\.jpe?g$/, /\.gif$/, /\.ico$/, /\.blat$/, /\.dat$/ ];
+// const offlineAssetsExclude = [ /^service-worker\.js$/ ];
 
 async function onInstall(event) {
     console.info('Service worker: Install');
@@ -39,17 +33,18 @@ async function onActivate(event) {
 }
 
 async function onFetch(event) {
-    let cachedResponse = null;
-    if (event.request.method === 'GET') {
-        // For all navigation requests, try to serve index.html from cache
-        // If you need some URLs to be server-rendered, edit the following check to exclude those URLs
-        const shouldServeIndexHtml = event.request.mode === 'navigate';
+    // let cachedResponse = null;
+    // if (event.request.method === 'GET') {
+    //     // For all navigation requests, try to serve index.html from cache
+    //     // If you need some URLs to be server-rendered, edit the following check to exclude those URLs
+    //     const shouldServeIndexHtml = event.request.mode === 'navigate';
 
-        const request = shouldServeIndexHtml ? 'index.html' : event.request;
-        const cache = await caches.open(cacheName);
-        cachedResponse = await cache.match(request);
-    }
+    //     const request = shouldServeIndexHtml ? 'index.html' : event.request;
+    //     const cache = await caches.open(cacheName);
+    //     cachedResponse = await cache.match(request);
+    // }
 
-    return cachedResponse || fetch(event.request);
+    // return cachedResponse || fetch(event.request);
+    return fetch(event.request);
 }
-/* Manifest version: XWkHdkYF */
+/* Manifest version: ZkLYRPQe */
