@@ -33,7 +33,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-ZyxvVDHvktUKwW0J\/KgMkvGNpZxtjQ+WfZVzv3sRTCk=",
+      "hash": "sha256-i45kzT1pMQLF1z1y9firzkMJwoiyDMNZIoZdqn7up80=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -41,7 +41,7 @@
       "url": "_framework\/Blazored.LocalStorage.dll"
     },
     {
-      "hash": "sha256-81LvuaSTJlqKxz49SRiXt4kEsaljIm9EN0OW0MBQ2gE=",
+      "hash": "sha256-uol99aBMbGOJMFKR9+aiarXUvvh8ardy7YNSnBWY3t8=",
       "url": "_framework\/Chess Maker Web.dll"
     },
     {
@@ -565,5 +565,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "uaaI+37k"
+  "version": "Y7JtClMC"
 };
